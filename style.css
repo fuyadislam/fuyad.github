@@ -1,0 +1,260 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent sizing */
+}
+
+/* Logo Styling */
+.logo {
+    font-family: sans-serif;
+    font-size: small;
+    color: #4E3629;
+    margin-left: 4%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Navbar Styling */
+.navbar ul {
+    list-style-type: none;          /* Removes default list styling */
+    background-color: #542c0d;      /* Sets the background color */
+    padding: 0;                     /* Removes padding */
+    margin: 0;                      /* Removes margin */
+    overflow: hidden;               /* Prevents content overflow */
+    border-radius: 10px;            /* Smooth corners */
+    display: flex;                  /* Aligns list items horizontally */
+    justify-content: center;        /* Centers items horizontally */
+    top: 50px;
+    font-size: large;
+    font-family: "Commissioner";
+    width: 40%;
+    margin-left: 25%;
+    text-align: center;
+    
+    
+    
+}
+
+
+.navbar li {
+    flex: 1;                        /* Ensures all list items are evenly spaced */
+    text-align: center;             /* Centers text in each item */
+}
+
+.navbar a {
+    color: white;                   /* White text color */
+    text-decoration: none;          /* Removes underlines */
+    padding: 15px;                  /* Adds padding around text */
+    display: flex;                 /* Makes the anchor a block element */
+    text-align: center;             /* Centers text */
+}
+
+.navbar a:hover {
+    background-color: #7a4114;      /* Changes background color on hover */
+    transform: scale(1.05)
+}
+
+/* Coffee Image Styling */
+#coffee {
+    float: left;
+    margin-left: 2%;
+    display: flex;
+}
+
+/* Body Background Styling */
+body {
+    background-image: url(Vector.png);
+    background-size: 40%;         /* Ensures the image covers the screen */
+    background-attachment: fixed;   /* Fixes the background position */
+    background-repeat: no-repeat;   /* Prevents tiling */
+    background-position: right;     /* Positions the background image */
+
+}
+
+/* Cuppy Section */
+#cuppy {
+    height: 950px;
+    position: absolute;
+    left: 1000px;
+    top: 200px;                     /* Adjusted for consistency */
+    display: inline-block;
+    margin-bottom: 20%;
+}
+
+/* Beans Section */
+#beans {
+    margin-bottom: 62%;
+    margin-left: 50%;
+    display: inline-block;
+}
+
+/* Writings Section */
+#writting1, #writting2 {
+    font-family: 'Commissioner';
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    margin-top: 11%;
+    margin-left: 50px;
+    line-height: 50%;
+}
+
+#writting3 {
+    font-family: 'Commissioner';
+    color: #1b1c1d80;
+    line-height: 120%;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+/* Sell Section */
+#sell {
+    font-family: 'Commissioner';
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    position: relative;
+    top: 10%;
+    margin-left: 50px;
+}
+@media (max-width: 768px) {
+    #cuppy {
+        left: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    #beans {
+        margin-left: 0;
+    }
+}
+
+
+#Login{
+    background-color: #542c0d;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 21px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    width: 10%;
+    right: 100px;
+    float: right;
+    justify-content: right;
+    margin-right: 2%;
+    
+    
+}
+
+#Login:hover {
+    background-color: #965c1e;
+    transform: scale(1.1)
+}
+#Login {
+    margin-bottom: 6px;
+    margin-bottom: 3px;
+    width: auto;
+    text-align: center;
+    align-self: flex-end;
+    margin-left: 20%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#order{
+    background-color: #542c0d;
+    color: white;
+    font-family: 'Commissioner', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    width: 10%;
+    right: 100px;
+    float: left;
+    justify-content: left;
+    margin-left:3%;
+    bottom: 110px;
+    margin-top: 2%;
+    
+}
+
+#order:hover {
+    background-color: #7a4114;
+    transform: scale(1.1)
+}
+#order {
+    margin-top: 15px;
+    width: auto;
+    text-align: center;
+}
+#order{
+    display: flex;
+    justify-content: space-between;
+}   
+
+
+
+
+
+
+
+.magnify-container {
+    display: flex;
+    align-items: center;
+}
+
+.magnify-button {
+    padding: 10px;
+    background-color: #542c0d;
+    color: white;
+    border: none;
+    border-radius: 30%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.magnify-button:hover {
+    background-color: #7a4114;
+    transform: scale(1.1)
+}
+
+/* SVG Icon Styling */
+.magnify-icon {
+    fill: white; /* Ensures the icon color matches the button */
+    width: 28px;
+    height: 28px;
+}
+.magnify-container {
+    margin-top: 1px;
+    margin-bottom: 2px;
+    align-self: flex-end;
+    margin-right: 6%;
+}
+
+#frame7 {
+    margin-left: 3%;
+    transition: background-color 0.3s ease;
+    display: flex;
+  
+}
+    
+
+.frame7:hover{
+    transform: scale(1.02)
+    
+}
