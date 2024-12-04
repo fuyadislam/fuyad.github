@@ -89,7 +89,7 @@ body {
 
 /* Beans Section */
 #beans {
-    margin-bottom: 6%;
+    margin-bottom: 2%;
     margin-left: 55%;
     display: flex;
 }
@@ -345,5 +345,20 @@ body {
     color: black;
     margin-left: 50px;
     display:flex ;
+    float: left;
+    overflow: auto ;
+    
+}
+
+#haha{
+    display: flex;
+    width: 240px;
+    margin-left: 2%;
+}
+
+#chug{
+    width: 95px;
+    display: flex;
+    
 }
 
