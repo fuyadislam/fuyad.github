@@ -30,10 +30,9 @@
     top: 50px;
     font-size: large;
     font-family: "Commissioner";
-    margin-right: 0%;
     text-align: center;
-    width: 1150px;
-    margin-right: 33%;
+    width: 1025px;
+    margin-right: 4%;
     
 }
 
@@ -54,6 +53,10 @@
 .navbar a:hover {
     background-color: #7a4114;      /* Changes background color on hover */
     transform: scale(1.05)
+}
+
+#header{
+    display: flex;
 }
 
 /* Coffee Image Styling */
@@ -244,7 +247,7 @@ body {
     margin-top: 1px;
     margin-bottom: 2px;
     align-self: flex-end;
-    margin-right: 13%;
+    margin-left: 30%;
 }
 
 #frame7 {
@@ -261,7 +264,7 @@ body {
 }
 
 .rafat{
-    width: 800px;
+    width: 520px;
     size: 50px;
 }
 
