@@ -298,6 +298,7 @@ body {
     transition: background-color 0.3s ease;
    margin-left: 3%;
    border: none;
+   width: 155px;
     
   
 }
