@@ -277,9 +277,6 @@ body {
 }
 /* Responsive Styles */
 @media (max-width: 1024px) {
-    .navbar ul {
-        font-size: medium;
-    }
 
     #cuppy, #beans {
         flex-direction: column;
@@ -293,10 +290,6 @@ body {
 }
 
 @media (max-width: 768px) {
-    .navbar ul {
-        flex-direction: column;
-    }
-
     #writting1, #writting2 {
         font-size: 20px;
     }
@@ -307,10 +300,6 @@ body {
 }
 
 @media (max-width: 480px) {
-    .navbar ul {
-        padding: 5px;
-    }
-
     #writting1, #writting2 {
         font-size: 18px;
     }
