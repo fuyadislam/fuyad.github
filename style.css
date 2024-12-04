@@ -86,7 +86,7 @@ body {
 
 /* Beans Section */
 #beans {
-    margin-bottom: 10%;
+    margin-bottom: 6%;
     margin-left: 50%;
     display: flex;
 }
@@ -250,8 +250,8 @@ body {
 #frame7 {
     margin-left: 3%;
     transition: background-color 0.3s ease;
-    display: flex;
-  
+    
+    border: none;
 }
     
 
@@ -272,4 +272,163 @@ body {
 
 #writting5{
     line-height: 120%;
+    font-size: 13px;
+    margin-bottom: 7px;
 }
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .navbar ul {
+        font-size: medium;
+    }
+
+    #cuppy, #beans {
+        flex-direction: column;
+        align-items: center;
+    }
+
+ #writting2, #sell {
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    #writting1, #writting2 {
+        font-size: 20px;
+    }
+
+     #order {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar ul {
+        padding: 5px;
+    }
+
+    #writting1, #writting2 {
+        font-size: 18px;
+    }
+
+    body {
+        background-size: 100%; /* Ensures the image doesn’t overflow */
+    }
+}
+@media (max-width: 1024px) {
+    #coffee {
+        float: none; /* Stops floating on medium screens */
+        margin: 0 auto; /* Centers the element */
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    #coffee {
+        margin: 10px auto; /* Adds spacing for small screens */
+        max-width: 90%; /* Shrinks width for smaller devices */
+    }
+}
+
+@media (max-width: 480px) {
+    #coffee {
+        margin: 5px auto; /* Further adjusts for extra-small screens */
+        max-width: 100%; /* Ensures it fits perfectly */
+    }
+}
+@media (max-width: 1024px) {
+    #Login {
+        font-size: 18px; /* Scales down text size for medium screens */
+        padding: 8px 16px; /* Adjusts padding */
+        margin-right: 5%; /* Increases spacing */
+    }
+}
+
+@media (max-width: 768px) {
+    #Login {
+        font-size: 16px; /* Further reduces font size */
+        margin: 10px auto; /* Centers button */
+        float: none; /* Ensures it doesn’t float */
+        display: block; /* Stretches it across available space */
+    }
+}
+
+@media (max-width: 480px) {
+    #Login {
+        font-size: 14px; /* Optimized for small screens */
+        padding: 6px 12px; /* Reduces padding for smaller screens */
+        width: 80%; /* Takes most of the available space */
+        margin: 10px auto; /* Centers and spaces the button */
+    }
+}
+#frame8 {
+    transition: background-color 0.3s ease;
+   margin-left: 3%;
+   border: none;
+    
+  
+}
+    
+
+.frame8:hover{
+    transform: scale(1.02)
+}
+.tea {
+   
+    transition: background-color 0.3s ease;
+    display: flex;
+    border: none;
+}
+#frame9 {
+    transition: background-color 0.3s ease;
+   margin-left: 3%;
+   border: none;
+    
+  
+}
+    
+
+.frame9:hover{
+    transform: scale(1.02)
+}
+
+#soon {
+    font-family: 'Commissioner';
+    font-size: 25px;
+    font-weight: bolder;
+    color: #1b1c1d80;
+    line-height: 230%;
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: 4%;
+    
+}        
+    
+#huhu{
+    
+    margin-left: 3%;
+    float: left;
+    width: 290px;
+    display: flex;
+    margin-bottom: 3%;
+    flex-direction: column;
+
+
+
+}
+
+#hehe{
+    font-family: 'Commissioner';
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    margin-left: 50px;
+    display:flex ;
+}
+
