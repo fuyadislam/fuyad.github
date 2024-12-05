@@ -292,7 +292,6 @@ body {
     transform: scale(1.02)
 }
 .tea {
-   
     transition: background-color 0.3s ease;
     display: flex;
     border: none;
@@ -317,10 +316,10 @@ body {
     font-weight: bolder;
     color: #1b1c1d80;
     line-height: 230%;
-    width:auto;
+    width:45%;
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
+    margin-left: 2%;
     margin-top: 4%;
     
 }        
@@ -329,10 +328,11 @@ body {
     
     margin-left: 3%;
     float: left;
-    width: 290px;
+    width: 85%;
     display: flex;
     margin-bottom: 3%;
-    flex-direction: column;
+    flex-direction: row;
+   
 
 
 
@@ -353,7 +353,39 @@ body {
 #haha{
     display: flex;
     width: 240px;
+    margin-left: 3%;
+    padding-bottom: 75px;
+}
+
+#wait{
     margin-left: 2%;
+    display: flex;
+    font-size:large;
+    font-weight: bolder;
+    flex-direction: column;
+    float: left;
+    padding-top: 60px;
+    font-family: 'Commissioner';
+   font-size: 18px;
+    
+   
+}
+
+#oops{
+        margin-left: 2%;
+        display: flex;
+        font-size:large;
+        font-weight: bolder;
+        flex-direction: column;
+        font-family: 'Commissioner';
+       font-size: 28px;
+       padding-top: 150px;
+       
+      
+       
+}
+#jaja{
+    display: flex;
 }
 
 #chug{
@@ -362,3 +394,6 @@ body {
     
 }
 
+#segsi{
+    width: 20%;
+}
