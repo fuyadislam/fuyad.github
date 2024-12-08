@@ -57,6 +57,7 @@
 
 #header{
     display: flex;
+    padding-bottom: 30px;
 }
 
 /* Coffee Image Styling */
@@ -70,7 +71,7 @@
 /* Body Background Styling */
 body {
     background-image: url(Vector.png);
-    background-size: 40%;         /* Ensures the image covers the screen */
+    background-size: 44%;         /* Ensures the image covers the screen */
     background-attachment: fixed;   /* Fixes the background position */
     background-repeat: no-repeat;   /* Prevents tiling */
     background-position: right;     /* Positions the background image */
@@ -83,7 +84,7 @@ body {
     position: absolute;
     left: 1000px;
     top: 200px;                     /* Adjusted for consistency */
-    display: inline-block;
+    display: flex;
     margin-bottom: 20%;
 }
 
@@ -102,7 +103,8 @@ body {
     color: black;
     margin-top: 11%;
     margin-left: 50px;
-    line-height: 50%;
+    line-height: 240%;
+    padding-bottom: 50px;
 }
 
 #writting3 {
@@ -111,6 +113,7 @@ body {
     line-height: 120%;
     font-size: 18px;
     margin-left: 50px;
+    padding-bottom: 25px;
 }
 
 /* Sell Section */
@@ -122,6 +125,8 @@ body {
     position: relative;
     top: 10%;
     margin-left: 50px;
+    padding-top: 130px;
+    padding-bottom: 33px;
 }
 @media (max-width: 768px) {
     #cuppy {
@@ -177,7 +182,7 @@ body {
     background-color: #542c0d;
     color: white;
     font-family: 'Commissioner', sans-serif;
-    font-size: 20px;
+    font-size: 23px;
     padding: 10px 20px;
     border: none;
     border-radius: 10px;
@@ -186,11 +191,12 @@ body {
     display: flex;
     width: 10%;
     right: 100px;
-    float: left;
+    
     justify-content: left;
-    margin-left:3%;
+    margin-left:2.5%;
     bottom: 110px;
     margin-top: 2%;
+   
     
 }
 
@@ -259,7 +265,7 @@ body {
     
 
 .frame7:hover{
-    transform: scale(1.02)
+    transform: scale(1.07)
     
 }
 
@@ -289,12 +295,13 @@ body {
     
 
 .frame8:hover{
-    transform: scale(1.02)
+    transform: scale(1.07)
 }
 .tea {
     transition: background-color 0.3s ease;
     display: flex;
     border: none;
+    padding-bottom: 15px;
 }
 #frame9 {
     transition: background-color 0.3s ease;
@@ -307,7 +314,7 @@ body {
     
 
 .frame9:hover{
-    transform: scale(1.02)
+    transform: scale(1.07)
 }
 
 #soon {
@@ -327,7 +334,7 @@ body {
 #huhu{
     
     margin-left: 3%;
-    float: left;
+    
     width: 85%;
     display: flex;
     margin-bottom: 3%;
@@ -397,3 +404,8 @@ body {
 #segsi{
     width: 20%;
 }
+
+#www{
+    padding-top: 20px;
+}
+
