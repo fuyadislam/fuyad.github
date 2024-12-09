@@ -259,6 +259,7 @@ body {
 #frame7 {
     margin-left: 3%;
     transition: background-color 0.3s ease;
+    border-radius: 20px;
     
     border: none;
 }
@@ -289,6 +290,7 @@ body {
     transition: background-color 0.3s ease;
    margin-left: 3%;
    border: none;
+   border-radius: 20px;
     
   
 }
@@ -308,6 +310,7 @@ body {
    margin-left: 3%;
    border: none;
    width: 155px;
+   border-radius: 20px;
     
   
 }
@@ -497,5 +500,73 @@ body {
 
     .social-icons {
         justify-content: center;
+    }
+}
+
+/* Base Styles */
+#kaku {
+    font-family: 'Commissioner';
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    margin-left: 30%;
+    padding-top: 2%;
+}
+
+#sss {
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    padding-left: 450px;
+    padding-top: 2%;
+}
+
+/* Responsive Styling */
+@media (max-width: 1200px) {
+    #kaku {
+        margin-left: 20%;
+        font-size: 30px;
+        padding-top: 3%;
+    }
+
+    #sss {
+        width: 90%;
+        padding-left: 0;
+        justify-content: center;
+        padding-top: 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    #kaku {
+        margin-left: 10%;
+        font-size: 25px;
+        padding-top: 4%;
+        text-align: center;
+    }
+
+    #sss {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 0;
+        padding-top: 4%;
+    }
+}
+
+@media (max-width: 480px) {
+    #kaku {
+        margin-left: 5%;
+        font-size: 20px;
+        padding-top: 5%;
+        text-align: center;
+    }
+
+    #sss {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 0;
+        justify-content: center;
+        padding-top: 5%;
     }
 }
